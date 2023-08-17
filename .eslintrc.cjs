@@ -11,7 +11,7 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   //ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts', 'src'],
-  ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts', 'tailwind.config.js', 'postcss.config.js'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
