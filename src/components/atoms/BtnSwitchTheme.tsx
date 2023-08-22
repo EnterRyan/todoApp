@@ -8,7 +8,11 @@ export default function BtnSwitchTheme() {
     dispatch({ type: 'TOGGLE_DARK_MODE' });
   };
   return (
-    <button type="button" onClick={toggleDarkMode}>
+    <button
+      className="rounded bg-white w-6 h-6 ml-3 mr-7 align-middle"
+      type="button"
+      onClick={toggleDarkMode}
+    >
       <MdDarkMode />
     </button>
   );

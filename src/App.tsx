@@ -3,13 +3,12 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/molecules/Header';
 import ListPage from './components/molecules/ListPage';
 import { DarkModeProvider2 } from './context/TestReducerAndContext';
-import './App.css';
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
       <DarkModeProvider2>
-        <div className="container">
+        <div className="container mx-auto rounded-md grid place-items-center">
           <Header />
           <Routes>
             <Route path="/*" element={<ListPage listType="ALL" />} />

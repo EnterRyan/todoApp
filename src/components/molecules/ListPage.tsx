@@ -5,5 +5,9 @@ interface PropsType {
 }
 
 export default function ListPage({ listType = 'ALL' }: PropsType) {
-  return <div>this is {listType} List Page</div>;
+  return (
+    <div className="font-bold text-3xl underline">
+      this is {listType} List Page
+    </div>
+  );
 }
