@@ -9,9 +9,9 @@ interface PropsType {
 
 export default function BtnHeaderTitle({ btnValue = 'nothing' }: PropsType) {
   const rightModeStyle =
-    'text-#0c0a09v bg-white font-bold uppercase px-3 py-1 text-xs mr-1 mb-1 w-1/4';
+    'text-#0c0a09v bg-white font-bold uppercase px-3 py-1 text-xs mr-1 mb-1 mt-3 w-1/4 h-10 border-blue-500';
   const darkModeStyle =
-    'text-slate-400 bg-slate-800 font-bold uppercase px-3 py-1 text-xs mr-1 mb-1 w-1/4 h-60px';
+    'text-slate-400 bg-slate-800 font-bold uppercase px-3 py-1 text-xs mr-1 mb-1 mt-3 w-1/4 h-10';
 
   const { state } = useDarkMode();
 
