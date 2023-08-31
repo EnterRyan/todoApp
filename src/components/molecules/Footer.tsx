@@ -4,12 +4,12 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer className="divide-dashed mt-10 text-#0c0a09v font-bold w-full grid place-items-center">
-      <p>My TodoAPP Skill</p>
+      <p>목표!</p>
       <ul className="list-inside list-disc">
-        <li className="hover:bg-slate-400">React-Router-dom</li>
-        <li className="hover:bg-slate-400">Reducer & Context API</li>
-        <li className="hover:bg-slate-400">TailwindCSS</li>
-        <li className="hover:bg-slate-400">LocalStorge</li>
+        <li className="hover:bg-slate-500">React-Router</li>
+        <li className="hover:bg-slate-500">Reducer & Context API</li>
+        <li className="hover:bg-slate-500">TailwindCSS</li>
+        <li className="hover:bg-slate-500">LocalStorge</li>
       </ul>
     </footer>
   );

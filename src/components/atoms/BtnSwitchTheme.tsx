@@ -10,7 +10,7 @@ export default function BtnSwitchTheme() {
   };
   return (
     <button
-      className="rounded bg-white w-6 h-6 ml-3 mr-7 align-middle"
+      className="rounded w-6 h-6 ml-3 mr-7 align-middle pl-1"
       type="button"
       onClick={toggleDarkMode}
     >

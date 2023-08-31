@@ -22,7 +22,6 @@ const darkModeState: ReducerStateType = { darkMode: false };
 const DarkModeReducer = (state: ReducerStateType, action: Action) => {
   switch (action.type) {
     case 'TOGGLE_DARK_MODE':
-      console.log(!state.darkMode);
       return { darkMode: !state.darkMode };
     default:
       return state;

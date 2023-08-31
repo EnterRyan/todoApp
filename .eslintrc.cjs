@@ -24,6 +24,7 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    "prettier/prettier": ["error", { endOfLine: "auto" }],
     'react/react-in-jsx-scope': 'off',
     'react-refresh/only-export-components': [
       'warn',
