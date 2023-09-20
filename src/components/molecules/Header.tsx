@@ -6,7 +6,7 @@ export default function Header() {
   const headerItem = ['All', 'Active', 'Completed'];
 
   return (
-    <div className="w-3/5">
+    <div className="w-4/5 border border-slate-700">
       <BtnSwitchTheme />
       {headerItem.map((element) => (
         <BtnHeaderTitle btnValue={element} key={element} />
